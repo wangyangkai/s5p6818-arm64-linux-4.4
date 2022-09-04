@@ -22,6 +22,7 @@
 / {
 	model = "FriendlyElec NanoPC-T3";
 	compatible = "friendlyelec,nanopc-t3", "nexell,s5p6818";
+	file = __FILE__, ", ", __DATE__, ", ", __TIME__, "\n";
 };
 
 &mach {
